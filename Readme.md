@@ -21,7 +21,7 @@ git clone https://github.com/Balkishans/java-spring-chatbot.git
 ```bash
 cd spring-boot-websocket-chat-demo
 mvn package
-java -jar target/websocket-demo-0.0.1-SNAPSHOT.jar
+java -jar target/chatbot-demo-0.0.1-SNAPSHOT.jar
 ```
 
 Alternatively, you can run the app directly without packaging it like so -
@@ -34,4 +34,4 @@ mvn spring-boot:run
 
 You can find the Live Demo of this application at -
 
-https://www.callicoder.com/spring-boot-websocket-chat-example/
+https://balkishan-chatbot.herokuapp.com/
