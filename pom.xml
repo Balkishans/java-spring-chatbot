@@ -42,7 +42,7 @@
             <artifactId>spring-boot-starter-reactor-netty</artifactId>
         </dependency>
 
-<!--        <dependency>
+        <!--        <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-devtools</artifactId>
             <scope>runtime</scope>
@@ -53,14 +53,28 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
-        <dependency>
-            <groupId>Ab</groupId>
-            <artifactId>com.google</artifactId>
-            <version>0.0.4.3</version>
-            <type>jar</type>
-        </dependency>
-    </dependencies>
+       
 
+        
+        <dependency>
+            <groupId>org.alicebot.ab</groupId>
+            <artifactId>ab</artifactId>
+            <version>4.0.4-SNAPSHOT</version>
+        </dependency>
+        
+    </dependencies>
+    <repositories>
+        <repository>
+            <id>soluvas-public-snapshots</id>
+            <url>http://nexus.bippo.co.id/nexus/content/repositories/soluvas-public-snapshots/</url>
+            <releases>
+                <enabled>false</enabled>
+            </releases>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+        </repository>
+    </repositories>
     <build>
         <plugins>
             <plugin>
