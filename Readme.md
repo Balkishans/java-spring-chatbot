@@ -1,4 +1,4 @@
-## Spring Boot WebSocket Chat Appplication
+## Spring Boot ChatBot Appplication
 
 You can checkout the live version of the application at https://balkishan-chatbot.herokuapp.com/
 
